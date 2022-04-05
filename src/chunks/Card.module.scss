@@ -1,0 +1,72 @@
+.block {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+
+  text-decoration-line: none;
+
+  background-color: #FFFFFF;
+
+  border-radius: 6px;
+
+  box-shadow: 0 1px 2px rgba($color: #000000, $alpha: 0.06);
+
+  transition-property: background-color;
+  transition-duration: 0.1s;
+
+  user-select: none;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: #818CF8;
+
+    .title {
+      color: rgba($color: #FFFFFF, $alpha: 1.0);
+    }
+
+    .tools {
+      color: rgba($color: #FFFFFF, $alpha: 0.6);
+    }
+  }
+}
+
+.side {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.title,
+.tools {
+  display: block;
+
+  text-transform: uppercase;
+
+  transition-property: color;
+  transition-duration: 0.1s;
+}
+
+.title {
+  line-height: 20px;
+  font-weight: 300;
+  font-size: 16px;
+
+  color: rgba($color: #000000, $alpha: 1.0);
+}
+
+.tools {
+  line-height: 16px;
+  font-weight: 300;
+  font-size: 12px;
+
+  color: rgba($color: #000000, $alpha: 0.6);
+}
+
+.icon {
+  display: block;
+}

@@ -1,0 +1,33 @@
+.block {
+  padding-top: 6px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+
+  background-color: #4B5563;
+
+  border-radius: 6px;
+
+  transition-property: background-color;
+  transition-duration: 0.1s;
+
+  user-select: none;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: #818CF8;
+  }
+}
+
+.text {
+  display: block;
+
+  line-height: 16px;
+  font-weight: 300;
+  font-size: 12px;
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}

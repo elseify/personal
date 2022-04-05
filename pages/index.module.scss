@@ -1,0 +1,26 @@
+.block {
+  display: block;
+}
+
+.info {
+  display: flex;
+
+  justify-content: center;
+}
+
+.info,
+.item {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.infoText {
+  display: block;
+
+  line-height: 32px;
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #111827;
+}

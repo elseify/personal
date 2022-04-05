@@ -16,8 +16,8 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "@components/*": [
-        "src/components/*"
+      "@chunks/*": [
+        "src/chunks/*"
       ],
       "@styles/*": [
         "src/styles/*"

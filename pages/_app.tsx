@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import type { AppProps } from 'next/app';
 
-import { Layout } from '@components/Layout';
+import { Layout } from '@chunks/Layout';
+
+import '@styles/app.scss';
 
 export default function App(props: AppProps) {
   const {

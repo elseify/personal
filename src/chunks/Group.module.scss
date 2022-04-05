@@ -1,0 +1,47 @@
+.block {
+  display: block;
+}
+
+.info,
+.list {
+  display: flex;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.infoText {
+  display: block;
+
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #111827;
+}
+
+.list {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin-top: 0;
+  margin-bottom: -16px;
+}
+
+.listItem {
+  &:global(._fill) {
+    flex-shrink: 0;
+    flex-basis: 100%;
+
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  &:global(._fit) {
+    margin-top: 0;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 0;
+  }
+}
